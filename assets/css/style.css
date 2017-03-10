@@ -92,6 +92,10 @@ body {
   margin: 2.25rem auto 3rem auto;
 }
 
+.why-images {
+  margin-bottom: 3rem;
+}
+
 /*TEAM STYLES*/
 .meet-the-team {
   background-color: #4a4a4a;
@@ -108,10 +112,43 @@ body {
 .team-images {
   margin: 0 auto 2rem auto;
   text-align: center;
+  color: #fff;
 }
 
-.team-names {
+.team-images img {
+  margin: 1rem 0 2rem 0;
+}
+
+/*CLIENTS STYLES*/
+.clients {
+  margin-top: 5.25rem;
+  border-top: 1px solid #d4d5d6;
   text-align: center;
-  color: #fff;
+}
+
+.clients-body {
+  margin-top: 5.5rem;
+  margin-bottom: 5rem;
+}
+
+.client-images {
+  margin-bottom: 3rem;
+}
+
+/*FOOTER STYLES*/
+footer {
+  text-align: center;
+  background-color: #e9ebeb;
   margin: 0 auto;
+  padding: 3rem 0;
+}
+
+.social-media {
+  margin: 2.625rem auto 1.5rem auto;
+}
+
+.copy {
+  margin: 2rem;
+  font-size: 0.75rem;
+  color: #212123;
 }
