@@ -154,7 +154,7 @@ footer {
 }
 
 /*MOBILE STYLES*/
-/*TABLET*/
+/*TABLET & PHONE*/
 @media only screen and (max-width: 768px) {
   /*JUMBOTRON*/
   .jumbotron {
