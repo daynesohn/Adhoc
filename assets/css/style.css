@@ -152,3 +152,37 @@ footer {
   font-size: 0.75rem;
   color: #212123;
 }
+
+/*MOBILE STYLES*/
+/*TABLET*/
+@media only screen and (max-width: 768px) {
+  /*JUMBOTRON*/
+  .jumbotron {
+    height: 33.5rem; !important
+  }
+
+  .jumbotron h1 {
+    margin-top: 10rem;
+    font-size: 2.75rem;
+  }
+
+  .jumbotron p {
+    font-size: 1rem;
+  }
+
+  /*QUOTE*/
+  .quote {
+    margin: 4rem auto 5.25rem auto;
+  }
+
+  /*WHY ADHOC*/
+  .col-xs-12 h2 {
+    font-size: 2rem;
+    top: -1rem;
+  }
+
+  .why-images {
+    max-width: 40%;
+    height: auto;
+  }
+}
