@@ -155,7 +155,9 @@ footer {
 
 /*MOBILE STYLES*/
 /*TABLET & PHONE*/
-@media only screen and (max-width: 768px) {
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px) {
   /*JUMBOTRON*/
   .jumbotron {
     height: 33.5rem; !important
